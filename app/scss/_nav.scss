@@ -1,0 +1,46 @@
+.nav {
+  margin-top: 2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    flex: 1;
+
+    h1 {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-flow: row nowrap;
+    
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: inline;
+
+      li {
+        display: inline;
+      }
+    }
+  }
+
+  &__menubtn {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+
+    span {
+      border-bottom: 3px solid rgb(255, 255, 255);
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

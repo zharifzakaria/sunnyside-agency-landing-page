@@ -19,6 +19,7 @@
       p {
         max-width: 18.75em;
         margin: 0 auto;
+        line-height: 1.6;
       }
 
       span {
@@ -54,9 +55,28 @@
     }
 
     &__mixed {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
+      background-size: cover;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100%;
+      min-height: 37.5em;
 
+      h1 {
+        font-family: $secondaryfont;
+        font-weight: $black;
+        font-size: $heading;
+        color: $verydarkdesatblue;
+      }
+
+      p {
+        max-width: 21.25em;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 4.0625em;
+        line-height: 1.6;
+      }
 
       &.graphic {
         background-image: url("/images/mobile/image-graphic-design.jpg");
@@ -64,6 +84,60 @@
 
       &.photography {
         background-image: url("/images/mobile/image-photography.jpg");
+      }
+    }
+  }
+
+  &__fullwidth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.25em 0;
+
+    h1 {
+      font-family: $secondaryfont;
+      font-weight: $black;
+      font-size: $fontsize;
+      text-transform: uppercase;
+      color: $grayishblue;
+      margin: 0;
+      padding: 0;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__image img{
+        margin-top: 4.25em;
+        border-radius: 50%;
+        width: 4.375em;
+
+      }
+
+      &__text {
+        max-width: 18.75em;
+        margin: 0 auto;
+        text-align: center;
+        font-size: $fontsize;
+        padding: 1.5em 0;
+        line-height: 1.6;
+      }
+
+      &__name {
+        text-align: center;
+        font-family: $secondaryfont;
+        font-weight: $black;
+        font-size: $fontsize;
+
+        span {
+          display: block;
+          font-family: $primaryfont;
+          font-weight: $regular;
+          font-size: $fontsize;
+          color: $grayishblue;
+        }
       }
     }
   }

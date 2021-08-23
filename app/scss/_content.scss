@@ -1,0 +1,70 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    &__text {
+      padding: 4.375em 0;
+      text-align: center;
+      h1 {
+        font-family: $secondaryfont;
+        font-weight: $black;
+        font-size: $heading;
+        color: $verydarkdesatblue;
+      }
+
+      p {
+        max-width: 18.75em;
+        margin: 0 auto;
+      }
+
+      span {
+        display: inline-block;
+        padding-top: 2.625em;
+        font-family: $secondaryfont;
+        font-weight: $black;
+        color: $verydarkdesatblue;
+        text-transform: uppercase;
+
+        &::after {
+          content: "";
+          display: block;
+          margin-top: -0.5em;
+          height: 0.75em;
+          width: 8.25em;
+          background-color: rgba($color: $yellow, $alpha: 0.3);
+          border-radius: 5px;
+        }
+
+        &.pink::after {
+          background-color: rgba($color: $softred, $alpha: 0.3);
+        }
+      }
+    }
+
+    &__image {
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__mixed {
+        display: flex;
+        flex-direction: column;
+
+
+      &.graphic {
+        background-image: url("/images/mobile/image-graphic-design.jpg");
+      }
+
+      &.photography {
+        background-image: url("/images/mobile/image-photography.jpg");
+      }
+    }
+  }
+}

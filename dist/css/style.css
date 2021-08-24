@@ -577,6 +577,8 @@
 
 .footer__links li {
   cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .footer__links li:hover {
@@ -606,6 +608,13 @@
   width: 1.25em;
   height: 1.25em;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.footer__icons .icon:hover {
+  -webkit-filter: brightness(999%);
+          filter: brightness(999%);
 }
 
 .footer .attribution {

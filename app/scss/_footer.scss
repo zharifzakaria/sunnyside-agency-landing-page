@@ -25,6 +25,7 @@
 
     li {
         cursor: pointer;
+        transition: all 0.3s ease-out;
 
         &:hover {
             color: $white;
@@ -46,6 +47,11 @@
       width: 1.25em;
       height: 1.25em;
       cursor: pointer;
+      transition: all 0.3s ease-out;
+
+      &:hover{
+        filter: brightness(999%);
+      }
     }
   }
 

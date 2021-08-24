@@ -10,6 +10,7 @@
   @include breakpoint-up(medium) {
     background-image: url("../../images/desktop/image-header.jpg");
     margin-top: -5.8em;
+    
   }
 
   &__title {
@@ -20,6 +21,11 @@
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: $white;
+
+    @include breakpoint-down(small) {
+      padding-top: 6.5em;
+      font-size: 2rem;
+    }
 
     @include breakpoint-up(large) {
       padding-top: 4em;

@@ -23,6 +23,10 @@
     font-size: $fontsize;
     color: $darkmodcyan;
 
+    @include breakpoint-down(small) {
+      font-size: 0.95em;
+    }
+
     li {
         cursor: pointer;
         transition: all 0.3s ease-out;

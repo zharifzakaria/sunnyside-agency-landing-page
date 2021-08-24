@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://github.com/zharifzakaria/sunnyside-agency-landing-page)](https://github.com/zharifzakaria/sunnyside-agency-landing-page)
-- Live Site URL: [[Add live site URL here](https://zharifzakaria.github.io/sunnyside-agency-landing-page/)](https://zharifzakaria.github.io/sunnyside-agency-landing-page/)
+- Solution URL: [https://github.com/zharifzakaria/sunnyside-agency-landing-page](https://github.com/zharifzakaria/sunnyside-agency-landing-page)
+- Live Site URL: [https://zharifzakaria.github.io/sunnyside-agency-landing-page/](https://zharifzakaria.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 

@@ -1,24 +1,34 @@
-.header{
-    background-image: url("../../images/mobile/image-header.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: -3.75em;
-    min-height: 100vh;
-    text-align: center;
+.header {
+  background-image: url("../../images/mobile/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -3.75em;
+  min-height: 102vh;
+  text-align: center;
 
-    &__title {
-        padding-top: 6.25em;
-        font-family: $secondaryfont;
-        font-weight: $black;
-        font-size: $heading;
-        letter-spacing: .3em;
-        text-transform: uppercase;
-        color: $white;
-    }
+  @include breakpoint-up(medium) {
+    background-image: url("../../images/desktop/image-header.jpg");
+    margin-top: -5.8em;
+  }
 
-    &__arrow {
-        margin-top: 3.75em;
-        color: $white;
+  &__title {
+    padding-top: 6.25em;
+    font-family: $secondaryfont;
+    font-weight: $black;
+    font-size: $heading;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: $white;
+
+    @include breakpoint-up(large) {
+      padding-top: 4em;
+      font-size: $heading-desktop;
     }
+  }
+
+  &__arrow {
+    margin-top: 3.75em;
+    color: $white;
+  }
 }

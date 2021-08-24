@@ -32,7 +32,7 @@
           <li>Contact</li>
         </ul>
       </div>
-      <div class="nav__menubtn hide-for-desktop">
+      <div id="mobile-btn" class="nav__menubtn hide-for-desktop">
         <span></span>
         <span></span>
         <span></span>
@@ -129,26 +129,53 @@
     </main>
 
     <portfolio class="portfolio">
-      <img src="/images/mobile/image-gallery-milkbottles.jpg" alt="milk bottles">
-      <img src="/images/mobile/image-gallery-orange.jpg" alt="orange">
-      <img src="/images/mobile/image-gallery-cone.jpg" alt="cone">
-      <img src="/images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar cubes">
+      <img
+        src="/images/mobile/image-gallery-milkbottles.jpg"
+        alt="milk bottles"
+      />
+      <img src="/images/mobile/image-gallery-orange.jpg" alt="orange" />
+      <img src="/images/mobile/image-gallery-cone.jpg" alt="cone" />
+      <img
+        src="/images/mobile/image-gallery-sugar-cubes.jpg"
+        alt="sugar cubes"
+      />
     </portfolio>
 
-    <footer>
+    <footer class="footer">
+      <img src="/images/logo.svg" alt="Sunnyside Logo" />
+      <ul class="footer__links">
+        <li class="link">About</li>
+        <li class="link">Services</li>
+        <li class="link">Projects</li>
+      </ul>
+
+      <ul class="footer__icons">
+        <img class="icon" src="/images/icon-facebook.svg" alt="facebook" />
+        <img class="icon" src="/images/icon-instagram.svg" alt="instagram" />
+        <img class="icon" src="/images/icon-twitter.svg" alt="twitter" />
+        <img class="icon" src="/images/icon-pinterest.svg" alt="pinterest" />
+      </ul>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/zharifzakaria"
+          >@zharifzakaria</a
+        >.
+      </div>
+    </footer>
+
+    <div id="mobile-menu" class="mobile-menu hide-for-desktop">
       <ul>
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>
         <li>Contact</li>
       </ul>
-    </footer>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
     </div>
+
+    <script src="/dist/js/script.js"></script>
   </body>
 </html>

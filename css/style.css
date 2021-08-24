@@ -474,7 +474,7 @@
   margin-bottom: 1.5em;
 }
 
-.footer__links {
+.footer ul {
   padding: 2em 0;
   margin: 0;
   display: flex;
@@ -487,17 +487,17 @@
 }
 
 @media (max-width: 39.9375em) {
-  .footer__links {
+  .footer ul {
     font-size: 0.95em;
   }
 }
 
-.footer__links li {
+.footer ul li {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
 
-.footer__links li:hover {
+.footer ul li:hover {
   color: white;
 }
 

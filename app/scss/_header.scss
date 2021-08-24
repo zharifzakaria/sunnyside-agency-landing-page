@@ -1,5 +1,5 @@
 .header {
-  background-image: url("../../images/mobile/image-header.jpg");
+  background-image: url("../images/mobile/image-header.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
   text-align: center;
 
   @include breakpoint-up(medium) {
-    background-image: url("../../images/desktop/image-header.jpg");
+    background-image: url("../images/desktop/image-header.jpg");
     margin-top: -5.8em;
     
   }
